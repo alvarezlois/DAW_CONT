@@ -1,0 +1,1 @@
+INDEX VERSION 1.130+/media/adrian/Almacen/DAW/CICLO_DAW_2017-18/Entornos/Entornos_05_Diseño orientado a objetos. Elaboración de diagramas estructurales/alvarez_lois_adrian_ED05_Tarefa/alvarez_lois_adrian_EN05_proxectojava/alvarez_lois_adrian_EN_proxectoJava/.metadata/.plugins/org.eclipse.jdt.core

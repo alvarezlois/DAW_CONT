@@ -1,0 +1,93 @@
+!SESSION 2018-03-14 06:04:49.083 -----------------------------------------------
+eclipse.buildId=4.7.2.M20171130-0510
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=gl_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2018-03-14 06:05:03.784
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-03-14 06:05:03.784
+!MESSAGE A conflict occurred for ALT+CTRL+U:
+Binding(ALT+CTRL+U,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.search.occurrences.in.file.quickMenu,Show Occurrences in File Quick Menu,
+		Shows the Occurrences in File quick menu,
+		Category(org.eclipse.search.ui.category.search,Search,Search command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@16ef1160,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,gtk,system)
+Binding(ALT+CTRL+U,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.UpdateCommand,Update,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@41f90b10,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2018-03-14 06:05:08.900
+!MESSAGE No repository found at file:/home/adrian/eclipse/java-oxygen/eclipse/configuration/org.eclipse.osgi/184/data/listener_1925729951/.
+
+!ENTRY org.tigris.subversion.subclipse.core 4 0 2018-03-14 06:05:46.650
+!MESSAGE Could not auto-share project test01
+!STACK 1
+org.tigris.subversion.subclipse.core.SVNException: Provided SVN information does not match that on disk for project 'test01'.
+	at org.tigris.subversion.subclipse.core.resources.SVNWorkspaceRoot.setSharing(SVNWorkspaceRoot.java:206)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.autoconnectSVNProject(SVNTeamProviderType.java:140)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.run(SVNTeamProviderType.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.tigris.subversion.subclipse.core 4 4 2018-03-14 06:05:46.652
+!MESSAGE Provided SVN information does not match that on disk for project 'test01'.
+!SESSION 2018-03-14 06:08:29.343 -----------------------------------------------
+eclipse.buildId=4.7.2.M20171130-0510
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=gl_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2018-03-14 06:08:44.943
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-03-14 06:08:44.943
+!MESSAGE A conflict occurred for ALT+CTRL+U:
+Binding(ALT+CTRL+U,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.search.occurrences.in.file.quickMenu,Show Occurrences in File Quick Menu,
+		Shows the Occurrences in File quick menu,
+		Category(org.eclipse.search.ui.category.search,Search,Search command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5a06eeef,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,gtk,system)
+Binding(ALT+CTRL+U,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.UpdateCommand,Update,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1c0cf193,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2018-03-14 06:09:44.879
+!MESSAGE An error occurred while collecting items to be installed
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2018-03-14 06:09:44.879
+!MESSAGE session context was:(profile=_home_adrian_eclipse_java-oxygen_eclipse, phase=org.eclipse.equinox.internal.p2.engine.phases.Collect, operand=, action=).
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-03-14 06:09:44.879
+!MESSAGE No repository found containing: osgi.bundle,com.gradleware.tooling.client,0.19.4.v20171108133209
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-03-14 06:09:44.879
+!MESSAGE No repository found containing: osgi.bundle,com.gradleware.tooling.model,0.19.4.v20171108133209
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-03-14 06:09:44.879
+!MESSAGE No repository found containing: osgi.bundle,com.gradleware.tooling.utils,0.19.4.v20171108133209
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-03-14 06:09:44.879
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.buildship.branding,2.2.1.v20180125-1441
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-03-14 06:09:44.879
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.buildship.core,2.2.1.v20180125-1441
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-03-14 06:09:44.879
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.buildship.stsmigration,2.2.1.v20180125-1441
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-03-14 06:09:44.879
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.buildship.ui,2.2.1.v20180125-1441
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-03-14 06:09:44.879
+!MESSAGE No repository found containing: osgi.bundle,org.gradle.toolingapi,4.3.0.v20171108133209
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-03-14 06:09:44.879
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.buildship,2.2.1.v20180125-1441
