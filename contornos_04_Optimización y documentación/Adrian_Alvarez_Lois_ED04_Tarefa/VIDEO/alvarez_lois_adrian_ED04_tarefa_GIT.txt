@@ -1,0 +1,16 @@
+Colguei o meu video en youtube. Aquí che deixo a URL
+
+https://youtu.be/1cgT9Tc0S-k
+
+Non creo que haxa problemas para velo pero eu uso o navegador web Vivaldi porque considero que é o mellor
+e non me deixa ver o video. En Opera tampouco me deixou velo pero en Chrome e Firefox non tiven problemas.
+O video grabeino con RecordMydesktop que é un software para o que o seu nome indica en Debian GNU/Linux.
+
+Se queres descargalo tamén o colguei no meu GitHub en 2 rars de 25MB que é o tope. O ficheiro está codificado
+en formato libre OGV de 50MB polo que dende players como o VLC deberías poder velo sen problemas.
+
+https://github.com/alvarezlois/Contornos.git
+
+Calquer cousa dame o toque!!
+
+Adrián Álvarez Lois
